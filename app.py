@@ -610,7 +610,7 @@ if page == "Blog Post":
     - It is important to note that MAPE is best suited for datasets where the actual values are always positive, as the percentage calculation can yield undefined results when actual values are zero.
     """)
 
-    st.markdown("""#### Practical Example: We have created a sample random data to illustrate MAE""")
+    st.markdown("""#### Practical Example: We have created a sample random data to illustrate MAE & MAPE""")
 
     image = Image.open("./data/other_metrics.png")
     st.image(image, caption="MAE Illustration", use_column_width=False)
